@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="A">It's a rainy day</h1>
+    <h3>Arsenal will win quadraple this season</h3>
+    <h3>Arsenal will beat atletico madrid 5-0 Today</h3>
+    <p id="B">It's a rainy day</p>
+    <p id="d"></p>
+    <img id="dubai" src="images/download dubai.jpg" alt="I'll vist dubai very soon">
+   
+    <ol>
+        
+            <li class="C">computer science</li>
+            <li class="C">engineering</li>
+            <li class="C">cosmetology</li>
+            <li class="C"> hospitality</li>
+            <li class="C">electrical engineering</li>
+        
+    </ol>
+    <script>
+        document.getElementById("dubai").setAttribute("src","images/download.jpg");
+        document.getElementById("d").textContent="this is a paragraph";
+        document.getElementById("A").innerHTML="It's week 5";
+        document.getElementById("B").innerHTML="Friday is a holiday";
+        let department=document.getElementsByClassName("C");
+        department[0].innerHTML="This is a list";
+        department[1].style.color="blue";
+        department[2].innerHTML="This is the third item";
+        let mysect=document.getElementsByTagName("h3");
+        mysect[0].textContent="Arsenal are the champions of EPL";
+        mysect[1].style.background="teal";
+        mysect[2].style.fontWeight="lighter";
+        
+        
+    
+
+
+        
+
+    </script>
+    
+</body>
+</html>
